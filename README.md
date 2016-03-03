@@ -1,5 +1,5 @@
-Guides
-======
+Vizzuality Development Guidelines
+=================================
 
 Guides for getting things done, programming well, and programming in style.
 
@@ -8,9 +8,6 @@ Guides for getting things done, programming well, and programming in style.
 * [Protocol](/protocol)
   * [Communication](/protocol/communication)
   * [Git](/protocol/git)
-  * [iOS](/protocol/ios)
-  * [Open Source](/protocol/open-source)
-  * [Product Review](/protocol/product-review)
   * [Rails](/protocol/rails)
 * [Security](/security)
 * [Style](/style)
@@ -44,9 +41,7 @@ Credits
 
 Thank you, [contributors](https://github.com/thoughtbot/guides/graphs/contributors)!
 
-![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
-
-Guides is maintained by [thoughtbot, inc](http://thoughtbot.com/community).
+Guides is based on work by [thoughtbot, inc](http://thoughtbot.com/community).
 
 License
 -------

@@ -5,6 +5,6 @@ open a new pull request.
 
 ## Getting Feedback
 
-Since these are our guides, we want everyone at thoughtbot to see them. We have
-a lot of offices across a lot of timezones, so we leave all PRs open for at
-least a week to get feedback from everyone.
+Since these are our guides, we want everyone to see them. We have a two
+offices in different timezones, so we leave all PRs open for at least a
+week to get feedback from everyone.

@@ -34,8 +34,8 @@ Object-Oriented Design
 Language/Framework specific
 --------
 
-* [Ruby](/best-practices/ruby)
-* [Rails & associates](/best-practices/rails)
-* [Postgres](/best-practices/postgres)
 * [JavaScript & HTML & CSS](/best-practices/javascript)
+* [Postgres](/best-practices/postgres)
+* [Rails & associates](/best-practices/rails)
+* [Ruby](/best-practices/ruby)
 

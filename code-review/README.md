@@ -80,3 +80,13 @@ An example response to style comments:
 
 If you disagree with a guideline, open an issue on the guides repo rather than
 debating it within the code review. In the meantime, apply the guideline.
+
+Automatic Reviews
+--------------
+
+Where possible integrate relevant code checking tools into the review process in order to automate parts of it.
+
+Ruby
+ - [`rubocop`](https://github.com/bbatsov/rubocop) for checking formatting and code style. To add it to a Rails project, you need to add `gem 'rubocop', require: false` to the Gemfile. Running the command `rubocop` will then list all violations of the default rules. To override the rules with project / team - specific ones, add a `.rubocop.yml` file. Here's an [example](https://github.com/Vizzuality/emissions-scenario-portal/blob/develop/.rubocop.yml)
+ - [Hound CI](https://houndci.com/configuration) can run the rubocop checks upon submitting a pull request through a github web hook. It supports other linters as well and the linters to be run are controlled via a `.hound.yml` file.
+ - [Code Climate](https://codeclimate.com) is a static code analyser which can detect many code smells like code duplication and complex methods. In the paid version it can also detect common security vulnerabilities. Works via a webhook.

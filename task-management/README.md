@@ -15,8 +15,8 @@ and not forget to reply to anyone.
 Tools
 -----
 
-- (Basecamp)[https://github.com/Vizzuality/guides/tree/master/task-management#basecamp]
-- (Pivotal Tracker)[https://github.com/Vizzuality/guides/tree/master/task-management#pivotal-tracker]
+- [Basecamp](https://github.com/Vizzuality/guides/tree/master/task-management#basecamp)
+- [Pivotal Tracker](https://github.com/Vizzuality/guides/tree/master/task-management#pivotal-tracker)
 
 
 Basecamp

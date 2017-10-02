@@ -16,6 +16,7 @@ Tools
 -----
 
 - [Basecamp](https://github.com/Vizzuality/guides/tree/master/task-management#basecamp)
+  - [Tips and best practices](#tips-and-best-practices)
 - [Pivotal Tracker](https://github.com/Vizzuality/guides/tree/master/task-management#pivotal-tracker)
 
 

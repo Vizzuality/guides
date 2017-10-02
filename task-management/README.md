@@ -72,6 +72,9 @@ and ideally it will be deployed to the staging environment;
 4. `Acceptance`: Acceptance can be done on the Retrospective/Planning meeting or
 when the Project Manager reviews the status of Pivotal Tracker
 
+For designers, data folks and others the `Pull Request` might not be the delivery
+system, but Pivotal Tracker can still be used.
+
 ### Planning sprints
 
 Best way to ensure that Pivotal Tracker is up to date is to ensure that everyone

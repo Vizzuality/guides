@@ -26,7 +26,7 @@ recipients so that people aren't flooded by all messages.
 - When ToDo lists are being used in a Basecamp project it's important to use the
 assignment functionality. This should be set to the person you're expecting an
 answer from, so that conversations don't get lost without response.
-- It is *your responsibility* to keep an eye on tasks assigned to you and to answer
+- It is **your responsibility** to keep an eye on tasks assigned to you and to answer
 to discussions when you are mentioned on them. So make sure to tweak Basecamp's
 settings so that they suit your way of working. If you like emails, get emails,
 if you don't, visit the website.

@@ -65,7 +65,27 @@ click on the finish button;
 3. `Deliver`: Once your Pull Request has been merged the task can be delivered,
 and ideally it will be deployed to the staging environment;
 4. `Acceptance`: Acceptance can be done on the Retrospective/Planning meeting or
-when the Project Manager reviews the status of Pivotal Tracker.
+when the Project Manager reviews the status of Pivotal Tracker
+
+### Planning sprints
+
+Best way to ensure that Pivotal Tracker is up to date is to ensure that everyone
+is using it and that it reflects the state of the project.
+
+It is recommended that each project team meets at least once a week to plan their
+project sprints. Recommended agenda for such a meeting is:
+
+1. Retrospective on previous sprint [if no specific meeting for it], goal is
+to check where the project is and if there were any issues;
+2. Discussion of priorities, the Project Manager should make sure to communicate
+any priorities discussed with the client;
+3. Identification of tasks to work on the new sprint;
+4. Ensure that all tasks have been estimated;
+5. Create a release on Pivotal Tracker with the date of the end of the sprint
+and describe the goals of the sprint on the description.
+
+After the planning meeting everyone should know what they are working on and
+what are the goals for the sprint.
 
 
 ### Tips and Best practices
@@ -80,9 +100,9 @@ on Pivotal Tracker, make sure to add it and to explain why it is needed the best
 you can;
 - Tags help organize work and can be useful to decide on what to work next, if
 you're adding new stories make sure to tag them consistently;
-- Iteration planning is a team job, everyone should be involved and participate
+- Sprint planning is a team job, everyone should be involved and participate
 actively in it, that is the only way that an accurate list of tasks can be set
-for a given iteration;
+for a given sprint;
 - Don't forget to update your stories when you finish some stage;
 - When creating a Pull Request you can add a link to a Pivotal Tracker story
 to make it easier for the reviewers to understand what they are reviewing;
@@ -123,12 +143,12 @@ you can also use them to better communicate what's happening with it.
 #### Backlog
 
 Usage varies but it seems to work well if we keep only the stories that we are
-aiming to tackle in a given iteration/sprint, this way there's less clutter and
-it's easier to check the pulse of an iteration.
+aiming to tackle in a given sprint, this way there's less clutter and
+it's easier to check the pulse of an sprint.
 
 #### Icebox
 
-Here we keep the tasks that are not part of the current iteration but that should
+Here we keep the tasks that are not part of the current sprint but that should
 be considered next. It's recommended that the icebox be filled as soon as there's
 information about specific user stories, so that there's a pool of stories to work
 from.
@@ -137,5 +157,5 @@ from.
 
 It's recommended to use points as number of hours. A custom range can be set, and
 at team Rosling we have been using `0,1,2,3,4,6,8,10,12,14,16`. Points should be
-set by the team on each iteration planning or after any estimation effort, they
-will help define each iteration.
+set by the team on each sprint planning or after any estimation effort, they
+will help define each sprint.

@@ -18,6 +18,10 @@ Tools
 - [Basecamp](https://github.com/Vizzuality/guides/tree/master/task-management#basecamp)
   - [Tips and best practices](#tips-and-best-practices)
 - [Pivotal Tracker](https://github.com/Vizzuality/guides/tree/master/task-management#pivotal-tracker)
+  - [Pivotal Tracker stages in real life](#pivotal-tracker-stages-in-real-life)
+  - [Planning sprints](#planning-sprints)
+  - [Tips and best practices](#tips-and-best-practices-1)
+  - [Epics, stories, backlog, icebox, and points](#epics-stories-backlog-icebox-and-points)
 
 
 Basecamp

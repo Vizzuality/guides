@@ -64,13 +64,16 @@ driving it and so it's our responsibility to ensure that it is useful for us.
 
 ### Pivotal Tracker stages in real life
 
-1. `Start`: You should start a task when you start working on it [this one is easy];
-2. `Finish`: Once you're done with a task and have created a Pull Request you can
-click on the finish button;
-3. `Deliver`: Once your Pull Request has been merged the task can be delivered,
-and ideally it will be deployed to the staging environment;
-4. `Acceptance`: Acceptance can be done on the Retrospective/Planning meeting or
-when the Project Manager reviews the status of Pivotal Tracker
+|STATE  |REQUIREMENTS FOR ENTERING STATE|REAL LIFE ACTIONS|
+|------ |-------------------------------|------------------|
+|STARTED|The task has been assigned to you or you have picked it from top of priority list and you are now available to start working on it. You understand what needs to be done and you have all the data / assets / copy required to complete the task.|You created a new branch.|
+|FINISHED|You have completed the task and it is now ready for review, which means you have written the code, tested the code, written automated tests, seen the automated test build pass, run a codestyle check and fixed any violations before passing it on to a reviewer.|You have created a pull request, written a description of what this is for and how to test this, waited for any automated build tools to pass and assigned 2 reviewers (please refer to [code review guide](https://github.com/Vizzuality/guides/tree/master/code-review)). Please ensure the PR contains the minimum set of changes needed to satisfy the requirements of the PT task, keep it small.|
+|DELIVERED|The reviewer has checked the code for smells, inconsistencies, violations of project-wide conventions as well as tested the code. Testing the code is not required in case of a reviewer who is not on the project team.|The reviewer approved the pull request (please refer to [code review guide](https://github.com/Vizzuality/guides/tree/master/code-review)).|
+||Code is merged into the integration branch.|2 scenarios for this:|
+|||1. as the code author you merge the code. It is your responsibility to resolve any conflicts, wait for automated builds to pass on the integration branch & resolve any unexpected issues.|
+|||2. the reviewer merges the code. This is a quicker flow which does not require a round-trip to the author, and is probably more appropriate for small changes on non-conflicted branches with small potential for regressions.|
+||Task is ready to test in a non-local environment. Most typically this will be a staging environment.|An automated deploy hook is recommended for deploys from integration branch (develop -> staging). If the automated deploy is not enabled, whoever merged the code should deploy it and verify it is actually ready for testing on the dedicated environment.|
+|ACCEPTED|Task has been verified to work in the testing environment and meet acceptance criteria. Acceptance can be done on the Retrospective/Planning meeting or when the Project Manager reviews the status of Pivotal Tracker|Once all tasks in a release have been accepted, changes from the integration branch can be merged into the production branch. It helps to keep releases small. Here's a useful [branching workflow](http://nvie.com/posts/a-successful-git-branching-model/).|
 
 For designers, data folks and others the `Pull Request` might not be the delivery
 system, but Pivotal Tracker can still be used.
